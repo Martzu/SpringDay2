@@ -29,6 +29,6 @@ public class Populate implements CommandLineRunner {
     public void run(String... args) throws Exception {
         //System.out.println(passwordEncoder.encode("salam").toString());
 
-        //userService.createUser("Alex", "$2a$10$cAPBs/qZY1Uiw6LspYiouOa5f3m1XmZt88zooHZuruE6VBPfrKWZ6");
+        userService.createUser("Alex", "$2a$10$cAPBs/qZY1Uiw6LspYiouOa5f3m1XmZt88zooHZuruE6VBPfrKWZ6");
     }
 }
